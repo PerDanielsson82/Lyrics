@@ -168,7 +168,6 @@ button6=st.sidebar.button("*At the stationhouse*")
 
 if button5:
     st.text("""Laughter in the night\n
-
 The sun is going down as the day begins to fade.
 Time means nothing now as I sit here in the shade.
 Yesterday was something else, another day and time
@@ -195,7 +194,6 @@ Laughter in the night. As I watched the fading light. Laughter in the night.""",
 
 if button6:
     st.text(""" At the stationhouse\n
-    
 Summertime is here, And the air’s so clear 
 And people’s walking by, And smile against the clear blue sky
 At the stationHouse, The conversation rise
