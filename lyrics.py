@@ -164,4 +164,4 @@ And the light will come again""", text_alignment="center")
 st.sidebar.subheader("Summertime", text_alignment="center")
 
 st.write("  ")
-st.write("Hör gärna av er med komentarer: perd16@hotmail.com")
+st.write("Hör gärna av er med komentarer")
