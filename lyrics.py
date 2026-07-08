@@ -2,8 +2,7 @@
 import streamlit as st
 
     
-st.title("Album lyrics", text_alignment="center")
-st.markdown("Välj låt i menyn till vänster för att visa texten", text_alignment="center")
+st.title("The silent man lyrics", text_alignment="center")
 
 st.sidebar.title("Albums")
 st.sidebar.subheader("Skydiving", text_alignment="center")
