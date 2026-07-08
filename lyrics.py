@@ -163,5 +163,57 @@ And the light will come again""", text_alignment="center")
     
 st.sidebar.subheader("Summertime", text_alignment="center")
 
+button5=st.sidebar.button("*Laughter in the night*")
+button6=st.sidebar.button("*At the stationhouse*")
+
+if button5:
+    st.text("""Laughter in the night\n
+
+The sun is going down as the day begins to fade.
+Time means nothing now as I sit here in the shade.
+Yesterday was something else, another day and time
+As the year it turned around.
+
+People were walking by with a mind in a good state
+They were dressed to kill on their way to celebrate
+I heard music playing everywhere and all around
+As the year it turned around
+
+Laughter in the night. As I watched the fading light. Laughter in the night.
+
+Nick and Johan did raise their glasses for a song
+So Anna sang for them a song in a foreign toungue
+And Jessica told tales ´bout royalties and hotel drinks
+On the day the year it turned around
+
+And I watched as I was sitting on the ground
+When Sam and Leo they did turn the stage around. 
+And then the main act sang a song ’bout biking up a hill
+On the day the year did turn around. 
+
+Laughter in the night. As I watched the fading light. Laughter in the night.""", text_alignment="center")
+
+if button6:
+    st.text(""" At the stationhouse\n
+    
+Summertime is here, And the air’s so clear 
+And people’s walking by, And smile against the clear blue sky
+At the stationHouse, The conversation rise
+As the coffee start to flow, And the wind still slowly blows
+
+I didn’t hear a word, The laughter was all I heard
+And I realised right there, The plays to be it must be here
+By the tables there, Where guys and girls all share
+A little space in time, To fit into this little rhyme
+
+Then the time is up, we split and go our separate ways
+But tomorrow, we are here again
+To make the laughter fill our day
+
+Then the wheel it turns, and the sunlight burns
+And the time pass by, We look against the same old sky
+At the stationHouse, the conversation rise
+The same old girls and boys, And I are still making all that noice""", text_alignment="center")
+    
 st.write("  ")
 st.write("Hör gärna av er med komentarer")
