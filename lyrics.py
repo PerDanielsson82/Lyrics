@@ -214,5 +214,4 @@ And the time pass by, We look against the same old sky
 At the stationHouse, the conversation rise
 The same old girls and boys, And I are still making all that noice""", text_alignment="center")
     
-st.write("  ")
-st.write("Hör gärna av er med komentarer")
+st.write(" ")
