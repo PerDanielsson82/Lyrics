@@ -1,8 +1,8 @@
 
 import streamlit as st
 
-    
-st.title("The silent man lyrics", text_alignment="center")
+st.image("Logo.png", output_format="JPEG")    
+st.title("Album Lyrics", text_alignment="center")
 
 st.sidebar.title("Albums")
 st.sidebar.subheader("Skydiving", text_alignment="center")
