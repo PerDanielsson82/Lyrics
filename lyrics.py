@@ -6,6 +6,7 @@ st.title("Album Lyrics", text_alignment="center")
 
 st.sidebar.title("Albums")
 st.sidebar.subheader("Skydiving", text_alignment="center")
+st.sidebar.image("Skydiving.png", width=100, output_format="JPEG")
 
 button1 = st.sidebar.button("*Fridays at Frans*")
 button2 = st.sidebar.button("*Devils Dance*")
@@ -161,7 +162,7 @@ But try to remember that the moon will go away
 And the light will come again""", text_alignment="center")
     
 st.sidebar.subheader("Summertime", text_alignment="center")
-
+st.sidebar.image("Summertime.png", width=100, output_format="JPEG")
 button5=st.sidebar.button("*Laughter in the night*")
 button6=st.sidebar.button("*At the stationhouse*")
 
