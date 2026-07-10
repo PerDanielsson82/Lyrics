@@ -191,13 +191,14 @@ When Sam and Leo they did turn the stage around.
 And then the main act sang a song ’bout biking up a hill
 On the day the year did turn around. 
 
-Laughter in the night. As I watched the fading light. Laughter in the night.""", text_alignment="center")
+Laughter in the night. As I watched the fading light. Laughter in the night.
+Laughter in the night. And the myts did came to live. Laughter in the night""", text_alignment="center")
 
 if button6:
     st.text(""" At the stationhouse\n
 Summertime is here, And the air’s so clear 
 And people’s walking by, And smile against the clear blue sky
-At the stationHouse, The conversation rise
+At the stationhouse, The conversation rise
 As the coffee start to flow, And the wind still slowly blows
 
 I didn’t hear a word, The laughter was all I heard
@@ -211,7 +212,7 @@ To make the laughter fill our day
 
 Then the wheel it turns, and the sunlight burns
 And the time pass by, We look against the same old sky
-At the stationHouse, the conversation rise
+At the stationhouse, the conversation rise
 The same old girls and boys, And I are still making all that noice""", text_alignment="center")
     
 st.write(" ")
