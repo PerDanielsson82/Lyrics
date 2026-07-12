@@ -27,6 +27,7 @@ When nature calls the gang is summoned like in the old days
 When the year did turn around and laughter led the way
 How are you today my friend and what are you up to?
 Let's sit down and sip a while and I will walk you through.
+
 As the stories they unfold people's passing by
 Farmer Pierreo's here again he don't like a cloudy sky
 The man, the myth, the legend got his hay chopped down today
@@ -36,10 +37,12 @@ I wounder what they talk about they don't seems to mind the pain
 When the chat is over they come laughing back inside
 When questions rise about what kept them
 They just smile and hide
+
 Time it moves and our dreams grow cold
 All new things that we had they all break and get old
 Time it moves but our dreams spin 'round
 Thats when people and places like this can be found
+
 As the time is passing by I sense a small relief
 The rain has stopped and the dark clouds is lifted by the breeze
 Hard decisions, serious chats they don't belong in here
@@ -48,10 +51,52 @@ So Nick and Johan raise their cups and starts a funny dance
 We are here to enjoy our self these Fridays at Frans
 Wisdom comes and wisdom goes but many times it stays
 And sometimes it still lingers on after many days
+
 Time it moves...""", text_alignment="center")
 
 if button2:
-    st.text
+    st.text("""Devils Dance\n
+The legend tells about a summer day
+When the wind was warm and the sky was blue
+A melody was heard above the whispering wind
+But where it came from noone knew
+As day did fade and turn into the evening
+And eventually into night
+An unknown player came and played the melody
+(That) the wind had wispered so light
+
+The player played with fury and entusiasm
+And people couldn’t stop to dance
+It felt as if it got a hold of them
+So he smiled with fire in his eyes
+Ha started walking out into the pinetrees
+And the dancers followed on
+The fire it got wider in his eyes
+As the melody went on.
+
+Dance, dance, dance said the music
+And the people they danced
+They said the Lord from above was plying
+But oh how wrong they where...
+
+The dance went on deeper in the forest
+And swirled around the lakes and trees
+The music carried on and so the dancers
+Deeper into the night
+In a glade upon a nearby mountaintop
+The player sat down by a tree
+the melody still flew out from the flute
+As the devil smiled and played on
+
+Dance, dance...
+
+Then when night did finally turn into the day
+And the sun began to rise
+The churchbells chimed in the valley down below
+But noone answered the call
+Up in the glade there was calm and stillness
+Noone left to tell the taleBut if you listen as the wind is floating by
+You still hear the melody he played""", text_alignment="center")
 
 if button3:
     st.pdf("lyrics/Skydiving.pdf")
