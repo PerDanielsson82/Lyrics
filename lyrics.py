@@ -18,7 +18,7 @@ button3 = st.sidebar.button("*Skydiving*")
 button4 = st.sidebar.button("*In times of sadness*")
 
 if button1:
-    st.pdf("lyrics/lyrics/Fridays at Frans.pdf")
+    st.pdf("Fridays at Frans.pdf")
 
 if button2:
     st.pdf("lyrics/Devils dance.pdf")
