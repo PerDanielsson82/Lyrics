@@ -14,6 +14,7 @@ button3 = st.sidebar.button("*Skydiving*")
 button4 = st.sidebar.button("*In times of sadness*")
 
 if button1:
+    st.pdf("lyrics/Fridays at Frans.pdf")
     st.text("""Fridays at Frans\n
 Brew the coffee in a bucket cause we're here to stay
 People they might come and go but we'll be here all day
