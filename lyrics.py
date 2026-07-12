@@ -4,7 +4,7 @@
 #  streamlit run lyrics.py
 
 import streamlit as st
-import streamlit_player 
+import st_player 
 
 st.image("pictures/Logo.png", output_format="JPEG")    
 st.title("Album Lyrics", text_alignment="center")
