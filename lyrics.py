@@ -99,10 +99,69 @@ Noone left to tell the taleBut if you listen as the wind is floating by
 You still hear the melody he played""", text_alignment="center")
 
 if button3:
-    st.pdf("lyrics/Skydiving.pdf")
+    st.text("""Skydiving\n
+As we get old we stop to challenge us at all
+As the time moves on we do what we always done
+So one day we thought as we looked up in the sky
+Lets just do it with no regrets at all
+
+They said it would be god to go away this day
+After all the rain the sun would shine today
+So this day we,re going up into the air
+And let the wind that blows just carry us away
+
+Skydiving
+Going down the mountain sides
+Skydiving
+Look at the world from a different view
+
+We gathered on the top and the instructions they were clear
+There’s nothing to worry ’bout just run and you will see
+So we did just that we ran into the air
+And when we left the ground it all felt so Unreal.
+
+Skydiving...
+
+Winds they blow and things they drift away
+And with the winds the moments tend to pass us by
+But floating in the air we could’t do another thing
+Just enjoy the moment that happened there and then
+
+So back on the ground the moment it was gone
+But we did still remember the time spent flying high
+And now we know that sometimes you must look
+At the world and things from a different view
+
+Skydiving...""", text_alignment="center")
 
 if button4:
-    st.pdf("lyrics/In times of sadness.pdf")
+    st.text("""In times of sadness\n
+Now and then I wounder where it all began?
+What did ignite the spark that turned it upside down?
+Was it just a rumour or something that was true?
+Was it something that we could have prevent?
+Somewhere on the ocean a boat is sailing on
+to a destination that is still unknown
+And like that boat we’re sailing on the sea of life.
+Hope your boat did reach the shore.
+
+I did once believe that day would follow night
+Not that night could go on and take over the light
+But like in nature when the moon eclipse the sun
+Our mind and thoughts are easily corupted by the night
+The boat we’re sailing on can take a different path
+And go through rain and thunder and get lost into the night
+And in the worst of nightmares the boat will fall apart
+And we sink into the sea.
+
+Now and then I wounder where it all began?
+And did you ever wounder ”oh what have I done?”
+We must live and learn but sometimes it’s so hard
+But lift your head and try to breath even in the dark.
+But in times of sadness it’s easy to belive
+That this is all there is and there wount be nothing else
+But try to remember that the moon will go away
+And the light will come again.""", text_alignment="center")
 
 
 st.sidebar.subheader("Summertime", text_alignment="center")
@@ -111,10 +170,53 @@ button5=st.sidebar.button("*Laughter in the night*")
 button6=st.sidebar.button("*At the stationhouse*")
 
 if button5:
-    st.pdf("lyrics/Laughter in the night.pdf")
+    st.text("""Laughter in the night\n
+The sun is going down as the day begins to fade.
+Time means nothing now as I sit here in the shade.
+Yesterday was something else, another day and time
+As the year it turned around.
+
+People were walking by with a mind in a good state
+They were dressed to kill on their way to celebrate
+I heard music playing everywhere and all around
+As the year it turned around
+
+Laughter in the night. As I watched the fading light. Laughter in the night.
+
+Nick and Johan did raise their glasses for a song
+So Anna sang for them a song in a foreign tongue
+And Jessica told tales  ́bout royalties and hotel drinks
+On the day the year it turned around
+
+And I watched as I was sitting on the ground
+When Sam and Leo they did turn the stage around.
+And then the main act sang a song ’bout biking up a hill
+On the day the year did turn around.
+
+Laughter in the night. As I watched the fading light. Laughter in the night.
+Laughter in the night. And the myths did came to life Laughter in the
+night""", text_alignment="center")
     
 if button6:
-    st.pdf("lyrics/At the stationhouse.pdf")
+    st.text("""At the stationhouse\n
+Summertime is here, and the air’s so clear
+And people’s walking by, and smile against the clear blue sky
+At the stationhouse, the conversation rise
+As the coffee start to flow, and the wind still slowly blows
+
+I didn’t hear a word, the laughter was all I heard
+And I realised right there, the plays to be it must be here
+By the tables there, where guys and girls all share
+A little space in time, to fit into this little rhyme
+
+Then the time is up, we split and go our separate ways
+But tomorrow, we are here again
+To make the laughter fill our day
+
+Then the wheel it turns, and the sunlight burns
+And the time pass by, we look against the same old sky
+At the stationhouse, the conversation rise
+The same old girls and boys, and I are still making all that noice""", text_alignment="center")
 
 
 
