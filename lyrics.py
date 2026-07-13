@@ -56,7 +56,7 @@ button7=st.sidebar.button("*This very day*")
 button8=st.sidebar.button("*Once upon a time*")
 
 if button7:
-    st.player("https://music.youtube.com/watch?v=Y_nr1V0p4o4&si=AATMnJnrr9HNzWD5")
+    st_player("https://music.youtube.com/watch?v=Y_nr1V0p4o4&si=AATMnJnrr9HNzWD5")
     st.pdf("lyrics/This very day.pdf")
 
 st.write("  ")
