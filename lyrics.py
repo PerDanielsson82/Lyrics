@@ -59,4 +59,8 @@ if button7:
     st_player("https://music.youtube.com/watch?v=Y_nr1V0p4o4&si=AATMnJnrr9HNzWD5")
     st.pdf("lyrics/This very day.pdf")
 
+if button8:
+    st_player("https://music.youtube.com/watch?v=PtEWx_cX7Ws&si=gFbHndtD5V_Vgw8W")
+    st.pdf("lyrics/Once upon a time.pdf")
+
 st.write("  ")
