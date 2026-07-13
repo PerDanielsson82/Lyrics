@@ -50,6 +50,9 @@ if button6:
     st_player("https://music.youtube.com/watch?v=xgM0CPPAgxY&si=-jAGPFrxRrCwJv8g")
     st.pdf("lyrics/At the stationhouse.pdf")
 
-
+st.sidebar.subheader("Christmas", text_alignment="center")
+st.sidebar.image("pictures/Christmas.png", width=100, output_format="JPEG")
+button7=st.sidebar.button("*This very day*")
+button8=st.sidebar.button("*Once upon a time*")
 
 st.write("  ")
