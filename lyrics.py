@@ -21,19 +21,35 @@ button4 = st.sidebar.button("*In times of sadness*")
 if button1:
     st_player("https://music.youtube.com/watch?v=fv2TtaVT9q8&si=wPA8m0A0GCKYgVa2")
     st.pdf("lyrics/Fridays at Frans.pdf")
+    with open("lyrics/Fridays at Frans.pdf", "rb") as file:
+        btn = st.download_button(label="Download pdf", data=file,
+                                 file_name="Fridays at Frans.pdf",
+                                 on_click="ignore", mime="application/pdf")
 
 
 if button2:
     st_player("https://music.youtube.com/watch?v=vEiAtr7pqCA&si=q8_HQzu2DiWSOvSs")
     st.pdf("lyrics/Devils dance.pdf")
+    with open("lyrics/Devils dance.pdf", "rb") as file:
+        btn = st.download_button(label="Download pdf", data=file,
+                                 file_name="Devils dance.pdf",
+                                 on_click="ignore", mime="application/pdf")
 
 if button3:
     st_player("https://music.youtube.com/watch?v=t0TSAopt-lY&si=6tWT2jEMqmHtrpmO")
     st.pdf("lyrics/Skydiving.pdf")
+    with open("lyrics/Skydiving.pdf", "rb") as file:
+        btn = st.download_button(label="Download pdf", data=file,
+                                 file_name="Skydiving.pdf",
+                                 on_click="ignore", mime="application/pdf")
 
 if button4:
     st_player("https://music.youtube.com/watch?v=jDiZIBp-XG0&si=W5Dbove8c8wqasw3")
     st.pdf("lyrics/In times of sadness.pdf")
+    with open("lyrics/In times of sadness.pdf", "rb") as file:
+        btn = st.download_button(label="Download pdf", data=file,
+                                 file_name="In times of sadness.pdf",
+                                 on_click="ignore", mime="application/pdf")
 
 
 st.sidebar.subheader("Summertime", text_alignment="center")
@@ -44,11 +60,19 @@ button6=st.sidebar.button("*At the stationhouse*")
 if button5:
     st_player("https://music.youtube.com/watch?v=Kfv_muHA5LU&si=b8uihi33k8oWD8nc")
     st.pdf("lyrics/Laughter in the night.pdf")
+    with open("lyrics/Laughter in the night.pdf", "rb") as file:
+        btn = st.download_button(label="Download pdf", data=file,
+                                 file_name="Laughter in the night.pdf",
+                                 on_click="ignore", mime="application/pdf")
     
 
 if button6:
     st_player("https://music.youtube.com/watch?v=xgM0CPPAgxY&si=-jAGPFrxRrCwJv8g")
     st.pdf("lyrics/At the stationhouse.pdf")
+    with open("lyrics/At the stationhouse.pdf", "rb") as file:
+        btn = st.download_button(label="Download pdf", data=file,
+                                 file_name="At the stationhouse.pdf",
+                                 on_click="ignore", mime="application/pdf")
 
 st.sidebar.subheader("Christmas", text_alignment="center")
 st.sidebar.image("pictures/Christmas.png", width=100, output_format="JPEG")
@@ -58,6 +82,10 @@ button8=st.sidebar.button("*Once upon a time*")
 if button7:
     st_player("https://music.youtube.com/watch?v=Y_nr1V0p4o4&si=AATMnJnrr9HNzWD5")
     st.pdf("lyrics/This very day.pdf")
+    with open("lyrics/This very day.pdf", "rb") as file:
+        btn = st.download_button(label="Download pdf", data=file,
+                                 file_name="This very day.pdf",
+                                 on_click="ignore", mime="application/pdf")
 
 if button8:
     st_player("https://music.youtube.com/watch?v=PtEWx_cX7Ws&si=gFbHndtD5V_Vgw8W")
