@@ -64,6 +64,6 @@ if button8:
     st.pdf("lyrics/Once upon a time.pdf")
     with open("lyrics/Once upon a time.pdf", "rb") as file:
         btn = st.download_button(label="Download pdf", data=file,
-                                 file_name="Once upon a time.pdf.pdf",
+                                 file_name="Once upon a time.pdf",
                                  on_click="ignore", mime="application/pdf")
 st.write("  ")
