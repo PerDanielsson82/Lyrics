@@ -62,4 +62,8 @@ if button7:
 if button8:
     st_player("https://music.youtube.com/watch?v=PtEWx_cX7Ws&si=gFbHndtD5V_Vgw8W")
     st.pdf("lyrics/Once upon a time.pdf")
+    with open("lyrics/At the stationhouse.pdf", "rb") as file:
+        btn = st.download_button(label"Download pdf", data=file,
+                                 file_name="At the stationhouse.pdf",
+                                 on_click="ignore", mime="application/pdf")
 st.write("  ")
