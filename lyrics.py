@@ -128,9 +128,9 @@ if button11:
 
 if button12:
     st_player("https://music.youtube.com/watch?v=BRUyzRN5kbo&si=jz5xODIw21_oeWvl")
-    st.pdf("lyrics/My world.pdf")
-    with open("lyrics/My world.pdf", "rb") as file:
+    st.pdf("lyrics/My World.pdf")
+    with open("lyrics/My World.pdf", "rb") as file:
         btn = st.download_button(label="Download pdf", data=file,
-                                 file_name="My world.pdf",
+                                 file_name="My World.pdf",
                                  on_click="ignore", mime="application/pdf")
 st.write("  ")
