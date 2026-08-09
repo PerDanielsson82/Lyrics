@@ -94,4 +94,20 @@ if button8:
         btn = st.download_button(label="Download pdf", data=file,
                                  file_name="Once upon a time.pdf",
                                  on_click="ignore", mime="application/pdf")
+
+st.sidebar.subheader("Different World", text_alignment="center")
+st.sidebar.image("pictures/Different world.png", width=100, output_format="JPEG")
+button9=st.sidebar.button("*Sail away*")
+button10=st.sidebar.button("*K.C*")
+button11=st.sidebar.button("*Different world*")
+button12=st.sidebar.button("*My world*")
+
+if button9:
+    st_player("https://music.youtube.com/watch?v=HIVns2XP0xc&si=PRA-m_uRqSjFNGsK")
+    st.pdf("lyrics/Sail away.pdf")
+    with open("lyrics/Sail away.pdf", "rb") as file:
+        btn = st.download_button(label="Download pdf", data=file,
+                                 file_name="Sail away.pdf",
+                                 on_click="ignore", mime="application/pdf")
+
 st.write("  ")
