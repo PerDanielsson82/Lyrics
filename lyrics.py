@@ -110,4 +110,27 @@ if button9:
                                  file_name="Sail away.pdf",
                                  on_click="ignore", mime="application/pdf")
 
+if button10:
+    st_player("https://music.youtube.com/watch?v=RDfzQ5Zgc4I&si=-2N2SkDj42ww8ZBc")
+    st.pdf("lyrics/KC.pdf")
+    with open("lyrics/KC.pdf", "rb") as file:
+        btn = st.download_button(label="Download pdf", data=file,
+                                 file_name="KC.pdf",
+                                 on_click="ignore", mime="application/pdf")
+
+if button11:
+    st_player("https://music.youtube.com/watch?v=Yvdtx27Ku4M&si=df6UqsvImuONvvjm")
+    st.pdf("lyrics/Different world.pdf")
+    with open("lyrics/Different world.pdf", "rb") as file:
+        btn = st.download_button(label="Download pdf", data=file,
+                                 file_name="Different world.pdf",
+                                 on_click="ignore", mime="application/pdf")
+
+if button12:
+    st_player("https://music.youtube.com/watch?v=BRUyzRN5kbo&si=jz5xODIw21_oeWvl")
+    st.pdf("lyrics/My world.pdf")
+    with open("lyrics/My world.pdf", "rb") as file:
+        btn = st.download_button(label="Download pdf", data=file,
+                                 file_name="My world.pdf",
+                                 on_click="ignore", mime="application/pdf")
 st.write("  ")
