@@ -1,7 +1,3 @@
-# cd lyrics
-# source venv/bin/activate
-#  cd Documents/Streamlit/
-#  streamlit run lyrics.py
 
 import streamlit as st
 from streamlit_player import st_player
