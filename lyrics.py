@@ -129,4 +129,37 @@ if button12:
         btn = st.download_button(label="Download pdf", data=file,
                                  file_name="My World.pdf",
                                  on_click="ignore", mime="application/pdf")
+
+st.sidebar.subheader("Two sides (2020) ", text_alignment="center")
+st.sidebar.image("pictures/Two sides.png", width=100, output_format="JPEG")
+button13=st.sidebar.button("*The world's gone mad*")
+button14=st.sidebar.button("*The way home*")
+button15=st.sidebar.button("*I ain't going nowhere*")
+
+
+if button13:
+    st_player("https://music.youtube.com/watch?v=t9P0Wuyg9r4&si=gsunUmNG8rxxr0oT")
+    st.pdf("lyrics/The world's gone mad.pdf")
+    with open("lyrics/The world's gone mad.pdf", "rb") as file:
+        btn = st.download_button(label="Download pdf", data=file,
+                                 file_name="The world's gone mad.pdf",
+                                 on_click="ignore", mime="application/pdf")
+
+if button14:
+    st_player("https://music.youtube.com/watch?v=F1q-PLGjnYA&si=685mtfgHprSErJjB")
+    st.pdf("lyrics/The way home.pdf")
+    with open("lyrics/The way home.pdf", "rb") as file:
+        btn = st.download_button(label="Download pdf", data=file,
+                                 file_name="The way home.pdf",
+                                 on_click="ignore", mime="application/pdf")
+
+if button15:
+    st_player("https://music.youtube.com/watch?v=OQoyJRdxZTA&si=tJ9a5g-ghpksTEdT")
+    st.pdf("lyrics/I ain't going nowhere.pdf")
+    with open("lyrics/I ain't going nowhere.pdf", "rb") as file:
+        btn = st.download_button(label="Download pdf", data=file,
+                                 file_name="I ain't going nowhere.pdf",
+                                 on_click="ignore", mime="application/pdf")
+
+
 st.write("  ")
