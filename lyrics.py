@@ -48,7 +48,7 @@ if button4:
                                  on_click="ignore", mime="application/pdf")
 
 
-st.sidebar.subheader("Summertime", text_alignment="center")
+st.sidebar.subheader("Summertime (2024) ", text_alignment="center")
 st.sidebar.image("pictures/Summertime.png", width=100, output_format="JPEG")
 button5=st.sidebar.button("*Laughter in the night*")
 button6=st.sidebar.button("*At the stationhouse*")
@@ -70,7 +70,7 @@ if button6:
                                  file_name="At the stationhouse.pdf",
                                  on_click="ignore", mime="application/pdf")
 
-st.sidebar.subheader("Christmas", text_alignment="center")
+st.sidebar.subheader("Christmas (2024) ", text_alignment="center")
 st.sidebar.image("pictures/Christmas.png", width=100, output_format="JPEG")
 button7=st.sidebar.button("*This very day*")
 button8=st.sidebar.button("*Once upon a time*")
@@ -91,7 +91,7 @@ if button8:
                                  file_name="Once upon a time.pdf",
                                  on_click="ignore", mime="application/pdf")
 
-st.sidebar.subheader("Different World", text_alignment="center")
+st.sidebar.subheader("Different World (2024) ", text_alignment="center")
 st.sidebar.image("pictures/Different world.png", width=100, output_format="JPEG")
 button9=st.sidebar.button("*Sail away*")
 button10=st.sidebar.button("*K.C*")
