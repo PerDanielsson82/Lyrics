@@ -129,6 +129,65 @@ if button12:
         btn = st.download_button(label="Download pdf", data=file,
                                  file_name="My World.pdf",
                                  on_click="ignore", mime="application/pdf")
+        
+
+st.sidebar.subheader("The book of history (2022) ", text_alignment="center")
+st.sidebar.image("pictures/The book of history.png", width=100, output_format="JPEG")
+button16=st.sidebar.button("*As time went by*")
+button17=st.sidebar.button("*Muddy waters*")
+button18=st.sidebar.button("*A crazy ride*")
+button19=st.sidebar.button("*Here and now*")
+button20=st.sidebar.button("*The book of history*")
+button21=st.sidebar.button("*And onwards*")
+
+if button16:
+    st_player("https://music.youtube.com/watch?v=zjzzQC69roQ&si=IlVPuYsGtjKc57-u")
+    st.pdf("lyrics/As time went by.pdf")
+    with open("lyrics/As time went by.pdf", "rb") as file:
+        btn = st.download_button(label="Download pdf", data=file,
+                                 file_name="AS time went by.pdf",
+                                 on_click="ignore", mime="application/pdf")
+
+if button17:
+    st_player("https://music.youtube.com/watch?v=w1GJzEBGQu0&si=KnFsej76_9Ezmx-k")
+    st.pdf("lyrics/Muddy Waters.pdf")
+    with open("lyrics/Muddy Waters.pdf", "rb") as file:
+        btn = st.download_button(label="Download pdf", data=file,
+                                 file_name="Muddy Waters.pdf",
+                                 on_click="ignore", mime="application/pdf")
+
+if button18:
+    st_player("https://music.youtube.com/watch?v=ohG9oAqf2tk&si=LCWdixPhWIxMncQH")
+    st.pdf("lyrics/A crazy ride.pdf")
+    with open("lyrics/A crazy ride.pdf", "rb") as file:
+        btn = st.download_button(label="Download pdf", data=file,
+                                 file_name="A crazy ride.pdf",
+                                 on_click="ignore", mime="application/pdf")
+
+if button19:
+    st_player("https://music.youtube.com/watch?v=YcWY60IGdws&si=raQINWiP8UnNID6x")
+    st.pdf("lyrics/Here and now.pdf")
+    with open("lyrics/Here and now.pdf", "rb") as file:
+        btn = st.download_button(label="Download pdf", data=file,
+                                 file_name="Here and now.pdf",
+                                 on_click="ignore", mime="application/pdf")
+
+if button20:
+    st_player("https://music.youtube.com/watch?v=jmBS3jMXgfw&si=-FYKbumKmZRWUA_k")
+    st.pdf("lyrics/The book of history.pdf")
+    with open("lyrics/The book of history.pdf", "rb") as file:
+        btn = st.download_button(label="Download pdf", data=file,
+                                 file_name="The book of history.pdf",
+                                 on_click="ignore", mime="application/pdf")
+
+if button21:
+    st_player("https://music.youtube.com/watch?v=T6ZDPyqNF_g&si=KJFbvLJQgQeyp88Q")
+    st.pdf("lyrics/And onwards.pdf")
+    with open("lyrics/And onwards.pdf", "rb") as file:
+        btn = st.download_button(label="Download pdf", data=file,
+                                 file_name="And onwards.pdf",
+                                 on_click="ignore", mime="application/pdf")
+        
 
 st.sidebar.subheader("Two sides (2020) ", text_alignment="center")
 st.sidebar.image("pictures/Two sides.png", width=100, output_format="JPEG")
