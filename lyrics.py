@@ -7,6 +7,7 @@ st.title("Album Lyrics", text_alignment="center")
 
 st.sidebar.title("Albums")
 st.sidebar.subheader("Skydiving", text_alignment="center")
+st.sidebar.write("2026", text_alignment="center")
 st.sidebar.image("pictures/Skydiving.png", width=100, output_format="JPEG")
 st.sidebar.write("  ")
 button1 = st.sidebar.button("*Fridays at Frans*")
