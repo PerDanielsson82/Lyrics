@@ -220,6 +220,6 @@ if button15:
                                  file_name="I ain't going nowhere.pdf",
                                  on_click="ignore", mime="application/pdf")
 
-st.sidebar.iframe("https://bandcamp.com/band_follow_button_classic/932392056", height = 33, alt =" Follow on Bandcamp",)
+st.sidebar.iframe("https://bandcamp.com/band_follow_button_classic/932392056", height = 45, alt =" Follow on Bandcamp",)
 
 st.write("  ")
